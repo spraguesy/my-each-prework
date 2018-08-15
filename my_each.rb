@@ -4,7 +4,3 @@ def my_each (arr)
     yield i
   end
 end
-
-my_each(arr) do |i|
-  puts i
-end
